@@ -1,5 +1,5 @@
 :root {
-    --clr-dark: #141414;;
+    --clr-dark: #0b0216;
     --clr-light: #F8F9FA;
     --clr-gray-400: #CED4DA ;
     --clr-gray-600: #6C757D ;
@@ -7,6 +7,7 @@
     --clr-blue: #7c3aed;
     --clr-red-1: #ff001984;
     --clr-yellow: #eab308;
+    --clr-indigo: #800391cf;
 
 /* rgb red rgb(176, 42, 55)*/
 /* rgb indigo rgb(95, 15, 224)*/
@@ -90,3 +91,17 @@ body::-webkit-scrollbar {
     background-color: var(--clr-blue);
     outline: 1px solid var(--clr-blue);
   }
+
+
+/*back to top*/
+
+#top {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 2rem;
+}

@@ -5,7 +5,7 @@
 }
 
 .contact__h2{
-    font-size: var(--size-2xl);
+    font-size: var(--size-5xl);
     color: var(--clr-light);
     margin-bottom: 2rem;
 }
@@ -14,4 +14,16 @@
     margin: 0.5rem;
     text-transform: uppercase;
     font-weight: 600;
+    font-size: var(--size-xl)
+}
+
+.linkedin-btn {
+    background-color: aqua;
+}
+
+.contact-btn,
+.tel-btn,
+.linkedin-btn {
+    width: 10rem;
+    text-align: center;
 }
