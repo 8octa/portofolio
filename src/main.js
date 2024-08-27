@@ -29,6 +29,20 @@ lightGallery(document.querySelector('.gallery'), {
 });
 
 
+
+
+
+
+
+
+
+
+let splide = new Splide( '.splide', {
+    type   : 'loop',
+  } );
+  
+  splide.mount();
+
 /*
 npm run build
 git add -A

@@ -34,15 +34,16 @@
 /* @media (min-width: 768px) {} */
 
 /* lg */
-@media (min-width: 1024px) {
-    .gallery{
+@media (min-width: 1024px) {}
+
+/* xl */
+@media (min-width: 1280px) {
+ .gallery{
 
         flex-direction: row;
     }
-}
 
-/* xl */
-/* @media (min-width: 1280px) {} */
+}
 
 /* 2xl */
 /* @media (min-width: 1536px) {} */
