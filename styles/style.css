@@ -1,13 +1,13 @@
 :root {
-    --clr-dark: #0b0216;
-    --clr-light: #F8F9FA;
-    --clr-gray-400: #CED4DA ;
-    --clr-gray-600: #6C757D ;
-    --clr-gray-800: #343A40;
-    --clr-blue: #7c3aed;
-    --clr-red-1: #ff001984;
-    --clr-yellow: #eab308;
-    --clr-indigo: #800391cf;
+--clr-dark: #0b0216;
+--clr-light: #F8F9FA;
+--clr-gray-400: #CED4DA ;
+--clr-gray-600: #6C757D ;
+--clr-gray-800: #343A40;
+--clr-blue: #7c3aed;
+--clr-red-1: #ff001984;
+--clr-yellow: #eab308;
+--clr-indigo: #800391cf;
 
 /* rgb red rgb(176, 42, 55)*/
 /* rgb indigo rgb(95, 15, 224)*/
@@ -40,6 +40,14 @@
 
 html {
     scroll-behavior: smooth;
+}
+
+.light {
+    --clr-light: #0b0216;
+    --clr-dark: #F8F9FA;
+    --clr-gray-400: #343A40 ;
+    --clr-gray-600: #343A40 ;
+    --clr-gray-800: #343A40;
 }
 
 body {
@@ -81,16 +89,16 @@ strong {
 
 body::-webkit-scrollbar {
     width: 1em;
-  }
+}
    
-  body::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
     box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
-  }
+}
    
-  body::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
     background-color: var(--clr-blue);
     outline: 1px solid var(--clr-blue);
-  }
+}
 
 
 /*back to top*/

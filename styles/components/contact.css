@@ -1,11 +1,7 @@
-.contact {
-    border: 2px ridge rgba(98, 0, 255, 0.619);
-    padding: 1rem;
-    
-}
+
 
 .contact__h2{
-    font-size: var(--size-5xl);
+    font-size: var(--size-base);
     color: var(--clr-light);
     margin-bottom: 2rem;
 }
@@ -14,7 +10,7 @@
     margin: 0.5rem;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: var(--size-xl)
+    
 }
 
 .linkedin-btn {
@@ -26,4 +22,37 @@
 .linkedin-btn {
     width: 10rem;
     text-align: center;
+    font-size: var(--size-base);
 }
+
+/* xs */
+@media (min-width: 475px) {
+    
+    .contact__h2{
+        font-size: var(--size-3xl);
+    }
+    
+
+    
+    .contact-btn,
+    .tel-btn,
+    .linkedin-btn {
+
+        font-size: var(--size-base);
+    }
+}
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

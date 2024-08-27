@@ -28,7 +28,7 @@
 }
 
 .about__h3{
-    font-size: var(--size-xl);
+    font-size: var(--size-sm);
     color: var(--clr-gray-400);
 }
 
@@ -82,6 +82,7 @@
 .about__p {
 
     font-size: var(--size-base);
+    font-weight: bold;
 }
 
 .about__h3 {
@@ -117,7 +118,7 @@
 
  .about {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     gap: 1rem;
 }
@@ -129,7 +130,9 @@
 }
 
 /* xl */
-/* @media (min-width: 1280px) {} */
+/* @media (min-width: 1280px) {
+} */
 
 /* 2xl */
-/* @media (min-width: 1536px) {} */
+/* @media (min-width: 1536px) {
+} */

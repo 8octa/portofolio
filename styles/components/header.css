@@ -53,7 +53,7 @@
 
 .header__svg {
     display: block;
-    color: var(--clr-gray-600);
+    color: var(--clr-light);
     width: var(--size-base);
     height: var(--size-base); 
 }
