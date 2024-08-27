@@ -9,10 +9,12 @@ import '../styles/components/examples.css'
 import '../styles/components/footer.css'
 import '../styles/components/mobile-nav.css'
 import '../styles/components/resume.css'
+import '../styles/components/gallery.css'
 import '../styles/utils.css'
 
 import mobileNav from './utils/mobile-nav';
 import darkMode from './utils/mode'
+
 
 mobileNav();
 darkMode();
@@ -20,6 +22,11 @@ darkMode();
 
 import top from './utils/top';
 top();
+
+
+lightGallery(document.querySelector('.gallery'), {
+    thumbnail: true,
+});
 
 
 /*
